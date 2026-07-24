@@ -17,10 +17,12 @@ int main() {
     cout << "pArr = " << pArr << endl;
     cout << "*pArr = " << *pArr << endl;
 
+    // pArr - это тоже самое что arr (это ссылки)
     cout << "---------------------" << endl;
     for (int i =0; i<SIZE; i++){
         cout << pArr[i] << endl;
     }
+    cout << pArr[1] << endl;
 
     cout << "---------------------" << endl; 
     cout << *arr << endl;// первый элемент массива
